@@ -1,0 +1,21 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "Run Drone SPI Example",
+            "type": "shell",
+            "command": "${workspaceFolder}/.venv/Scripts/python.exe",
+            "args": ["drone/dwm3000_spi_example.py"],
+            "group": "build",
+            "problemMatcher": []
+        },
+        {
+            "label": "Run Beacon SPI Example",
+            "type": "shell",
+            "command": "${workspaceFolder}/.venv/Scripts/python.exe",
+            "args": ["beacon/dwm3000_spi_example.py"],
+            "group": "build",
+            "problemMatcher": []
+        }
+    ]
+}

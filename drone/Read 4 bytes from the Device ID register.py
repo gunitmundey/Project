@@ -1,3 +1,7 @@
+import spidev
+import RPi.GPIO as GPIO
+import time
+
 # Register address for DEV_ID
 DEV_ID_ID = 0x03  # Device ID register
 
